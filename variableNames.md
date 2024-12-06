@@ -10,10 +10,10 @@ total - totalNumbersOfVotes
 vot - candidateVotingResult
 // количество голосов у кандидата
 
-max - maximumVotingResult
+max - maxVotingResult
 // максимальный результат голосования
 
-idsSort - AscSortedListOfEmployees
+idsSort - AscendingSortedListOfEmployees
 // список сотрудников по возрастанию
 
 salaryIdsList - listOfEmployeeSalaries
