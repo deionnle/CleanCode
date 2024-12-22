@@ -1,6 +1,8 @@
-1. Информативные комментарии
+***1. Информативные комментарии***
 
-В задании [SearchWord](https://github.com/deionnle/Survivor/blob/main/SearchWord.java#L5) добавил комментарий
+В задании [SearchWord](https://github.com/deionnle/Survivor/blob/main/SearchWord.java#L5) 
+добавил комментарий
+
 ` /*
    Функция получает параметром len ширину выравнивания, саму строку в параметре s,
    и проверяемое слово в параметре subs.
@@ -8,34 +10,44 @@
    (признаки нахождения слова в соответствующей строке).
    */`
 
-В задании [MissionImpossible](https://github.com/deionnle/Survivor/blob/main/MissionImpossible.java#L9) добавил комментарий
+В задании [MissionImpossible](https://github.com/deionnle/Survivor/blob/main/MissionImpossible.java#L9) 
+добавил комментарий
+
 `/*
 Функция получает исходную строку s и либо зашифровывает её (encode = true),
 либо расшифровывает (encode = false), без исходных пробелов.
 */`
 
-В задании [SalaryTable](https://github.com/deionnle/Survivor/blob/main/SalaryTable.java#L7) добавил комментарий
+В задании [SalaryTable](https://github.com/deionnle/Survivor/blob/main/SalaryTable.java#L7) 
+добавил комментарий
+
 `/*
 Функция получает параметром N длину обоих массивов. Параметр ids - массив, содержащий номера сотрудников,
 параметр salary - массив, содержащий зарплаты.
 Возвращает функция массив, содержащий переупорядоченные зарплаты.
 */`
 
-В задании [MrRobot](https://github.com/deionnle/Survivor/blob/main/MrRobot.java#L6) добавил комментарий
+В задании [MrRobot](https://github.com/deionnle/Survivor/blob/main/MrRobot.java#L6) 
+добавил комментарий
+
 `/*
 Функция получает размер массива N и сам массив, и возвращает true если можно отсортировать массив,
 используя круговой сдвиг трех подряд элементов влево произвольное количество раз.
 */`
 
-2. Представление намерений
+***2. Представление намерений***
 
-В задании [Cyberpunk1994](https://github.com/deionnle/Survivor/blob/main/Cyberpunk1994.java#L12) добавил комментарий
+В задании [Cyberpunk1994](https://github.com/deionnle/Survivor/blob/main/Cyberpunk1994.java#L12) 
+добавил комментарий
+
 `/*
 мы формируем одномерный массив, содержащий элементы
 входной матрицы, в порядке обходя по спирали, начиная с левого верхнего угла.
 */`
 
-В задании [KeyMaster](https://github.com/deionnle/Survivor/blob/main/KeyMaster.java#L11) добавил комментарий
+В задании [KeyMaster](https://github.com/deionnle/Survivor/blob/main/KeyMaster.java#L11) 
+добавил комментарий
+
 `/*
 Мы моделируем последовательность действий с `k` дверями, которые изначально все закрыты.
 На первом шаге открываем все двери. На втором - закрываем каждую вторую дверь.
@@ -43,40 +55,51 @@
 Далее, на n-м шаге таким образом "переключаем" каждую n-ю дверь.
 */`
 
-3. Прояснение
+***3. Прояснение***
 
-В задании [MadMax](https://github.com/deionnle/Survivor/blob/main/MadMax.java#L20) добавил комментарий, 
+В задании [MadMax](https://github.com/deionnle/Survivor/blob/main/MadMax.java#L20) 
+добавил комментарий
+
 `/*
 Возвращаемый результат представляет собой массив, центральный элемент которого - максимальное его
 значение, все левые элементы упорядочены по возрастанию, а все правые - по убыванию.
 */` 
 
-В задании [Matrix](https://github.com/deionnle/Survivor/blob/main/Matrix.java#L26) добавил комментарий,
+В задании [Matrix](https://github.com/deionnle/Survivor/blob/main/Matrix.java#L26) 
+добавил комментарий
+
 ` /*
 Возвращает функция наибольшую подстроку в строке col, в которой одинаковое количество 1 и 0,
 или пустую строку "", если таковой не нашлось.
 */` 
 
-4. Предупреждения о последствиях
+***4. Предупреждения о последствиях***
 
 В задании `Squirrel` с методом вычисления факториала, добавил предупреждение в тестах
 [SquirrelTest](https://github.com/deionnle/Survivor/blob/main/SquirrelTest.java#L6):
+
 `// не передавайте аргументом слишком большие числа`.
 
-5. Усиление 
+***5. Усиление***
 
-В задании [PhoneUnlock](https://github.com/deionnle/Survivor/blob/main/PhoneUnlock.java#L37) добавил комментарий:
+В задании [PhoneUnlock](https://github.com/deionnle/Survivor/blob/main/PhoneUnlock.java#L37) 
+добавил комментарий
+
 `/*
 Длину линии, рисуемой в процессе взлома кода, требуется округлить до пятого знака,
 убрать запятую и удалить нули.
 */`
 
-В задании [Voting](https://github.com/deionnle/Survivor/blob/main/Voting.java#L29) добавил комментарий:
+В задании [Voting](https://github.com/deionnle/Survivor/blob/main/Voting.java#L29) 
+добавил комментарий
+
 `// точность результата округляется до трёх знаков после запятой.`
 
-6. Комментарии TODO
+***6. Комментарии TODO***
 
-В задании [TanksRush](https://github.com/deionnle/Survivor/blob/main/TanksRush.java#L8) добавил комментарий:
+В задании [TanksRush](https://github.com/deionnle/Survivor/blob/main/TanksRush.java#L8) 
+добавил комментарий:
+
 `//TODO - Вложенные циклы значительно увеличивают временную сложность алгоритма.
 // В версии 2.0 циклы будут заменены на более оптимизированные функции
 // для уменьшения временной сложности.`
